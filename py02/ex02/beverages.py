@@ -15,9 +15,7 @@ class   Coffee(HotBeverages):
 
 class   Tea(HotBeverages):
     def __init__(self):
-        super().__init__("tea", 0.30);
-    def description(self):
-        return ("Just some hot water in a cup.");
+        super().__init__("tea");
 
 class   Chocolate(HotBeverages):
     def __init__(self):

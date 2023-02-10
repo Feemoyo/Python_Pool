@@ -19,7 +19,10 @@ def my_FT():
     print(c2);
     print(c2.make_coffe());
     print(c1);
-    print(c1.work());
+    try:
+        print(c1.work());
+    except  Exception as error:
+        print(error);
 
 if __name__ == "__main__":
     my_FT();

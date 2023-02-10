@@ -40,7 +40,9 @@ def company():
         try:
             print(machine.serve(random.choice(drinks)))
         except Exception as error:
-            print(error)
+            print("=======================================");
+            print(error);
+            print("=======================================");
             machine.repair();
         i += 1;
 
